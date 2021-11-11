@@ -1,0 +1,55 @@
+.down{
+    height:50px;
+    width:50px;
+    position:absolute;
+    background-color:blue;
+    right:0px;
+    bottom:0px;
+}
+.top{
+    display: flex;
+   
+}
+.one{
+    height:30px;
+    width:30px;
+    background-color: chartreuse;
+    position:absolute;
+    right: 150px;
+    
+}
+.two{
+    height:30px;
+    width:30px;
+    background-color: chartreuse;
+    position:absolute;
+    right:90px;
+  
+}
+.three{
+    height:30px;
+    width:30px;
+    background-color: chartreuse;
+    position:absolute;
+    right:30px;
+
+
+}
+.willkommen{
+    position: relative;
+    margin: 20px;
+    padding:20px;
+    background-color: crimson;
+    width:400px;
+    height:300px;
+
+}
+.point{
+    position: absolute;
+    bottom:0px;
+    right:0px;
+    height:100px;
+    width:100px;
+    background-color: coral;
+
+}
