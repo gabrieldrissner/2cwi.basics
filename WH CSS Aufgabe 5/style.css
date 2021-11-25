@@ -1,11 +1,12 @@
 .container1{
 height: 100px;
-width:100px;
+width:200px;
 background-color: crimson;
+position: relative;
 }
 .container2{
     height: 100px;
     width:100px;
     background-color: crimson;
     }
-    .oben
+    .absolut
