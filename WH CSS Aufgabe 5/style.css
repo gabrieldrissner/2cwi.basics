@@ -1,12 +1,51 @@
-.container1{
-height: 100px;
-width:200px;
-background-color: crimson;
-position: relative;
+.container1 {
+  height: 200px;
+  width: 200px;
+  background-color: crimson;
+  position: relative;
 }
-.container2{
+.container2 {
+  height: 200px;
+  width: 200px;
+  background-color: crimson;
+  position: relative;
+}
+.oben {
+  display: flex;
+  justify-content: space-between;
+}
+.absolute {
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.absolute2 {
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.container3 {
     height: 100px;
-    width:100px;
-    background-color: crimson;
+    width: 100px;
+    background-color: greenyellow;
+    position: absolute;
+    right:0px;
+    bottom:0px;
     }
-    
+.unten{
+    position:relative;
+}
+.absolute3{
+    height: 20px;
+    width: 20px;
+    background-color: hotpink;
+    position: absolute;
+    right:0px;
+    bottom: 0px;
+}

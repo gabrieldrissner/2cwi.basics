@@ -1,0 +1,42 @@
+.oben{
+    display: flex;
+    position: relative;
+}
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: lawngreen;
+    margin:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.absolute{
+ width:50px;
+ height:50px;
+ background-color: orange;
+
+
+}
+.relative{
+    background-color: lawngreen;
+    height: 200px;
+    width: 200px;
+    right: 0px;
+    bottom:0px;
+    position: absolute;
+}
+.absolute1{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: lightblue;
+    }
+.relative2{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: lightpink;
+    bottom:0px;
+    margin-left: -20px;
+}
