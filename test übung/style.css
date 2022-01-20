@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+}
+.right{
+    height:100px;
+    width:100px;
+    background-color: blue;
+    position: relative;
+}
+.top{
+    display:flex;
+    justify-content: space-between;
+}
+.left{
+    height:100px;
+    width:100px;
+    background-color: brown;
+    position: relative;
+}
+
+.point1{
+    height: 20px;
+    width: 20px;
+    background-color: cadetblue;
+    position: absolute;
+    bottom:0px;
+    right:0px;
+}
+
+.point2{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(235, 8, 8);
+    position: absolute;
+    bottom:0px;
+    right:0px; 
+}
+
+.absolute{
+    height: 20px;
+    width: 20px;
+    background-color: chocolate;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.relative{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    bottom: 0px;
+    right:0px;
+    position: fixed;
+}
+
+.down{
+position: relative;
+}
